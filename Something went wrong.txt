@@ -1,0 +1,37 @@
+Windows PowerShell
+(C) Корпорация Майкрософт, 2009. Все права защищены.
+
+PS G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\src> npm run lint
+
+> defender-game@1.0.0 lint G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace
+> eslint .
+
+
+Oops! Something went wrong! :(
+
+ESLint: 8.7.0
+
+Error: Failed to load parser '@typescript-eslint/parser' declared in '.eslintrc.yml': Cannot find module '@typescript-eslint/parser'
+Require stack:
+- G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\.eslintrc.yml
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:962:15)
+    at Function.resolve (internal/modules/cjs/helpers.js:78:19)
+    at Object.resolve (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:1088:46)
+    at ConfigArrayFactory._loadParser (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:3235:39)
+    at ConfigArrayFactory._normalizeObjectConfigDataBody (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:3030:43)
+    at _normalizeObjectConfigDataBody.next (<anonymous>)
+    at ConfigArrayFactory._normalizeObjectConfigData (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:2971:20)
+    at _normalizeObjectConfigData.next (<anonymous>)
+    at ConfigArrayFactory.loadInDirectory (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:2817:28)
+    at CascadingConfigArrayFactory._loadConfigInAncestors (G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\node_modules\@eslint\eslintrc\dist\eslintrc.cjs:3772:46)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! defender-game@1.0.0 lint: `eslint .`
+npm ERR! Exit status 2
+npm ERR!
+npm ERR! Failed at the defender-game@1.0.0 lint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Игрок\AppData\Roaming\npm-cache\_logs\2022-01-19T17_38_41_313Z-debug.log
+PS G:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace\src>
