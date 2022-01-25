@@ -32,6 +32,8 @@
     "http-server": "^14.1.0"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.1",
     "core-js": "^3.20.2"
   }
 }
