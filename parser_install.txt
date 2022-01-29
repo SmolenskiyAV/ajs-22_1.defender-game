@@ -1,0 +1,34 @@
+Microsoft Windows [Version 10.0.17763.292]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2018. Все права защищены.
+
+C:\Windows\system32>cd /d E:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace
+
+E:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace>npm i @typescript-eslint/parser
+npm WARN old lockfile
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile
+npm WARN old lockfile FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@typescript-eslint%2ftypes: read ECONNRESET
+npm WARN old lockfile     at C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\body.js:162:15
+npm WARN old lockfile     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+npm WARN old lockfile     at async Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:741:9)
+npm WARN old lockfile  Could not fetch metadata for @typescript-eslint/types@5.10.0 FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@typescript-eslint%2ftypes: read ECONNRESET
+npm WARN old lockfile     at C:\Program Files\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\body.js:162:15
+npm WARN old lockfile     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+npm WARN old lockfile     at async Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:741:9) {
+npm WARN old lockfile   code: 'ECONNRESET',
+npm WARN old lockfile   errno: 'ECONNRESET',
+npm WARN old lockfile   syscall: 'read',
+npm WARN old lockfile   type: 'system'
+npm WARN old lockfile }
+
+added 5 packages, changed 1 package, and audited 398 packages in 5m
+
+73 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+E:\NETOLOGY\Part-7\HOMEWORKs\ajs-22_1.workspace>

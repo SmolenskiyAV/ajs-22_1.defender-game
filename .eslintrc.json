@@ -4,12 +4,28 @@
         "es2021": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:react/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": 13,
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
     },
     "rules": {
-    }
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+      ],
+      "settings": {
+        "eact": {
+          "version": "detect"
+        }
+      }
 }
